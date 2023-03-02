@@ -46,6 +46,7 @@
 }
 .toDoBox {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: flex;
   align-items: center;
   gap: 5px;
