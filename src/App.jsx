@@ -2,17 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 
 const App = () => {
-  const [doing, setDoing] = useState([
-    {
-      bigTd: '리액트를 공부하자',
-    },
-    {
-      bigTd: '노드를 공부하자',
-    },
-    {
-      bigTd: '스프링를 공부하자',
-    },
-  ])
+  const [doing, setDoing] = useState([])
   const [bigTd, setBigTd] = useState('')
 
   const changeBigTdHandler = (event) => {
