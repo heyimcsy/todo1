@@ -1,0 +1,25 @@
+.app {
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 300px;
+}
+.head {
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toDoBox {
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 30px;
+}
+.box-style {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(46, 111, 108);
+  border-radius: 10px;
+}
