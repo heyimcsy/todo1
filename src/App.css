@@ -1,8 +1,8 @@
 /* body {
   font-family: 'Gowun Dodum', sans-serif;
-}
+} */
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
 .app {
   max-width: 1200px;
@@ -69,6 +69,7 @@
   border-radius: 10px;
 }
 .aButton {
+  /* font-family: 'Gowun Dodum', sans-serif; */
   color: rgb(13, 98, 164);
   border: 2px solid rgb(13, 98, 164);
   border-radius: 10px;
